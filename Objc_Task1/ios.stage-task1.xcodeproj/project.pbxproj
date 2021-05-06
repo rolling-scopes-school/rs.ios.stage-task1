@@ -123,7 +123,11 @@
 		8293ECC126346C7500CEE768 /* ios.stage-task1Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DCA9716D26429CE800AA1FA4 /* Exercises */,
+				DCA9717826429CE800AA1FA4 /* OddNumbersTests.m */,
+				DCA9717326429CE800AA1FA4 /* ValidNumberTests.m */,
+				DCA9717126429CE800AA1FA4 /* MinRotatedTests.m */,
+				DCA9716F26429CE800AA1FA4 /* NumberConverterTests.m */,
+				DCA9717526429CE800AA1FA4 /* LeaderBoardTests.m */,
 				8293ECC426346C7500CEE768 /* Info.plist */,
 			);
 			path = "ios.stage-task1Tests";
@@ -187,58 +191,6 @@
 				DCA9715C26429CE300AA1FA4 /* OddNumbers.md */,
 				DCA9715F26429CE300AA1FA4 /* OddNumbers.h */,
 				DCA9715D26429CE300AA1FA4 /* OddNumbers.m */,
-			);
-			path = "Exercise-1";
-			sourceTree = "<group>";
-		};
-		DCA9716D26429CE800AA1FA4 /* Exercises */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9717626429CE800AA1FA4 /* Exercise-1 */,
-				DCA9717226429CE800AA1FA4 /* Exercise-2 */,
-				DCA9717026429CE800AA1FA4 /* Exercise-3 */,
-				DCA9716E26429CE800AA1FA4 /* Exercise-4 */,
-				DCA9717426429CE800AA1FA4 /* Exercise-5 */,
-			);
-			path = Exercises;
-			sourceTree = "<group>";
-		};
-		DCA9716E26429CE800AA1FA4 /* Exercise-4 */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9716F26429CE800AA1FA4 /* NumberConverterTests.m */,
-			);
-			path = "Exercise-4";
-			sourceTree = "<group>";
-		};
-		DCA9717026429CE800AA1FA4 /* Exercise-3 */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9717126429CE800AA1FA4 /* MinRotatedTests.m */,
-			);
-			path = "Exercise-3";
-			sourceTree = "<group>";
-		};
-		DCA9717226429CE800AA1FA4 /* Exercise-2 */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9717326429CE800AA1FA4 /* ValidNumberTests.m */,
-			);
-			path = "Exercise-2";
-			sourceTree = "<group>";
-		};
-		DCA9717426429CE800AA1FA4 /* Exercise-5 */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9717526429CE800AA1FA4 /* LeaderBoardTests.m */,
-			);
-			path = "Exercise-5";
-			sourceTree = "<group>";
-		};
-		DCA9717626429CE800AA1FA4 /* Exercise-1 */ = {
-			isa = PBXGroup;
-			children = (
-				DCA9717826429CE800AA1FA4 /* OddNumbersTests.m */,
 			);
 			path = "Exercise-1";
 			sourceTree = "<group>";

@@ -26,10 +26,6 @@
                         [positions addObject:@(pos)];
                         break;
                     }
-//                    if(){
-//                        [positions addObject:@(pos - 1)];
-//                        break;
-//                    }
                     if( j == [rankedArray count] - 1)
                     {
                         [positions addObject:@(pos + 1)];

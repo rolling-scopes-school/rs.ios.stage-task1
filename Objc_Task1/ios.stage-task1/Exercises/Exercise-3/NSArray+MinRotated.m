@@ -19,10 +19,6 @@
     return minIdx;
 }
 
-//NSComparisonResult compare(NSNumber *obj1, NSNumber *obj2) {
-//  return (obj1 < obj2) ? NSOrderedAscending : (obj1 > obj2) ? NSOrderedDescending : NSOrderedSame;
-//}
-
 -(int)findPivot
 {
     int start = 0;
@@ -85,13 +81,6 @@
         
         [rotation addObject:@([arr findPivot])];
         [arr removeAllObjects];
-        /*
-        arr = [NSMutableArray arrayWithArray: [[arr reverseObjectEnumerator] allObjects]];
-        
-        int min = [arr minElement];
-        [rotation addObject: @(min)];
-        
-        [arr removeAllObjects];*/
     }
     
     NSNumber *res = nil;

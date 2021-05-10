@@ -3,7 +3,7 @@
 @implementation NSArray (MinRotated)
 
 - (NSNumber *)minRotated {
-    return nil;
+    return [self valueForKeyPath:@"@min.self"];
 }
 
 @end

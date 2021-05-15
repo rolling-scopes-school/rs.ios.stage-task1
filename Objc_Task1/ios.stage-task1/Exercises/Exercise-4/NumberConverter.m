@@ -4,11 +4,10 @@
 
 - (NSArray *)numberConverter:(NSNumber *)number {
 
-    NSInteger unsignedInt = [number unsignedIntValue];
-    NSString *string = [NSString stringWithFormat:@"%ld", (long)unsignedInt];
+    NSString *string = [[number stringValue] stringByReplacingOccurrencesOfString:@"-" withString:@""];
 
     NSMutableArray *array = [NSMutableArray arrayWithArray:@[]];
-    for (int i = [string length]; i > 0; i--)
+    for (int i = (int) [string length]; i > 0; i--)
     {
         NSUInteger index = i - 1;
         UniChar character = [string characterAtIndex:index];
